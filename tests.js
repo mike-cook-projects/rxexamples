@@ -1,6 +1,6 @@
 var expect = require("chai").expect;
-var Observable = require("./prescription/observable");
-var Disposable = require("./prescription/disposable");
+var Observable = require("./rxexamples/observable");
+var Disposable = require("./rxexamples/disposable");
 var NOOP = function() {};
 
 describe("Observable", function() {
